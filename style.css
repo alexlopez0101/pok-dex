@@ -1,0 +1,53 @@
+#pokemon-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 0.5rem;
+}
+
+.pokemon-card {
+	width: 200px;
+	aspect-ratio: 1;
+}
+
+.pokemon-card > img {
+	display: block;
+	width: 100%;
+}
+
+/* Fuentes y colores */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #E52630; 
+  }
+  
+  h1 {
+    color: #FFCB05;
+  }
+  
+  /* Encabezado */
+  header {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Tarjetas Pokémon */ 
+  .pokemon-card {
+    background: #FFF; 
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 3px 15px rgba(100,100,100,0.5);
+  }
+  
+  /* Mensajes */
+  #message {
+    text-align: center;
+    color: #FFF;  
+  }
+  
+  /* Botones */
+  button {
+    background: #FFCB05;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
